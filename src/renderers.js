@@ -31,7 +31,7 @@
       }
 
       if (!(rendererName in registeredRenderers)) {
-        throw Error('No editor registered under name "' + rendererName + '"');
+        throw Error('No renderer registered under name "' + rendererName + '"');
       }
 
       return registeredRenderers[rendererName];
